@@ -2,6 +2,11 @@
     font-family: "MinuetBold";
     src: url(Minuet\ W01\ Bold.ttf);
 }
+
+@font-face {
+    font-family: "Peralta";
+    src: url(Peralta-Regular.ttf);
+}
 #etch-a-sketch {
     display: flex;
     background-color: #e61b00;
@@ -112,4 +117,24 @@ h3 {
     -2px -3px 0 rgba(0,0,0,0.05), -3px -2px 0 rgba(0,0,0,0.05),
     -3px -4px 0 rgba(0,0,0,0.05), -4px -3px 0 rgba(0,0,0,0.05),
     -4px -5px 0 rgba(0,0,0,0.05), -5px -4px 0 rgba(0,0,0,0.05);
+}
+
+#github {
+    height: 22px;
+    position: absolute; 
+    bottom: 25px;
+    right: 492px;
+    -webkit-filter: drop-shadow(1px 1px 1px black);
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+#sophiawliu {
+    font-family: "Peralta";
+    color: #ff4d35;
+    font-size: 18px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000000;
+    position: absolute; 
+    bottom: 25px;
+    right: 362px;
 }
